@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Harjutus 4</title>
+        <title>Harjutus 5</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -20,18 +20,43 @@
 
     <body>
         <header>
-            <!-- place navbar here -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"><img src="https://picsum.photos/id/1025/20/20" alt="">Pook</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myMenu" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Avaleht</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Epood</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">kassa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontakt</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-success ms-auto" type="submit"><img src="https://picsum.photos/id/1025/20/20" alt=""> Logi Sisse</button>
+                </div>
+            </nav>
         </header>
         <main>
 
 
             <div class="container py4">
-                <div class="mt-4 p-5 rounded">
-                    <div class="card text-white mb-4">        
-                        <img class="card-img-top" src="https://picsum.photos/id/1020/600/200" alt="bear">
+                <div class="mt-4 p-5 rounded-0">
+                    <div class="card text-white mb-4 rounded-0">        
+                        <img class="card-img-top rounded-0" src="https://picsum.photos/id/1020/600/200" alt="bear">
                             <div class="card-body card-img-overlay">
-                                <br>
-                                <br>
+                                <style>
+                                    .card-body {
+                                        padding-top:70px;
+                                    }
+                                </style>
                                 <h1 class="display-1 text-center">Jumbotron</h1>
                                 <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                             </div>
