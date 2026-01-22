@@ -24,7 +24,7 @@
                 <a class="navbar-brand ms-5" href="#"><img src="https://picsum.photos/id/1025/20/20" alt="">Minu Blogi</a>
                 <style>
                     .navbar {
-                        padding-left: 120px;
+                        padding-left: 70px;
                     }
                 </style>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myMenu" aria-expanded="false">
@@ -50,54 +50,108 @@
         </header>
         <main>
             <div class="container">
-                <div class="main">
-                    <div class="location">
-                        <a href="#">Blogi</a>
-                        <p> / </p>
-                        <a href="#"> Veebitehnoloogia</a>
-                        <p> / </p>
-                        <p>Sinupostitus</p>
+                <div class="main p-3">
+                    <style>
+                        .main {
+                            display: block;
+                            float: left;
+                            width: 700px;
+                            height: 100%;
+                            border: 1px solid red;
+                            margin-right: 20px;
+                        }
+                    </style>
+                    <div class="location bg-light">
+                        <style>
+                            .location{
+                                border: 1px solid red;
+                                margin-bottom: 5%;
+                            }
+                        </style>
+                        <div class="d-flex justify-content-start">
+                            <style>
+                                .d-flex a,p{
+                                    padding-left: 5px;
+                                    border: 1px solid red;
+                                    text-decoration: none;
+                                }
+                            </style>
+                            <a href="#">Blogi</a>
+                            <p>/</p>
+                            <a href="#">Veebitehnoloogia</a>
+                            <p>/</p>
+                            <p>Sinupostitus</p>
+                        </div>
                     </div>
                     <div class="top">
+                            <style>
+                                .top{
+                                }
+                            </style>
+                        <h1>Sinu postitus</h1>
+                        <h4>Autor: Andre Pook</h4>
+                        <p>22.01.2026 css bootstrap</p>
+                        <img src="https://picsum.photos/id/684/600/400?blur=5" alt="">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, consectetur, veritatis explicabo nobis dolore earum culpa iste, excepturi assumenda quidem necessitatibus quasi sit nostrum sapiente. Aspernatur neque nulla ex debitis.</h5>
 
                     </div>
                     <div class="content">
-
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quaerat nesciunt voluptatem voluptate numquam cumque quibusdam? Molestiae quo, voluptatibus, illo asperiores velit perspiciatis hic quae magnam amet beatae, inventore laudantium.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatum impedit sapiente vero rem? Iste dicta, tempore enim illum sequi rem suscipit dolorum blanditiis provident aliquam debitis vel ratione vero!</p>
                     </div>
                 </div>
                 <div class="sidebar">
                         <style>
                             .sidebar {
-                                width: 400px;
+                                display: block;
+                                float: left;
+                                width: 500px;
+                                height: 100%;
                             }
                         </style>
-                    <div class="categories">
-                        <h3>Kategooriad</h3>
-                        <ul>
-                            <li>
-                                <a href="#">HTML</a>
-                            </li>
-                            <li>
-                                <a href="#">CSS</a>
-                            </li>
-                            <li>
-                                <a href="#">Bootstrap</a>
-                            </li>
-                            <li>
-                                <a href="#">JavaScript</a>
-                            </li>
-                            <li>
-                                <a href="#">PHP</a>
-                            </li>
-                            <li>
-                                <a href="#">MySQL</a>
-                            </li>
-                            
-                        </ul>
+                    <div class="categories card mb-3">
+                        <div class="border bg-light p-2">
+                            <h3>Kategooriad</h3>
+                        </div>
+                        <div class="categories-2 row align-items-start p-3">
+                            <style>
+                                .categories-2 a{
+                                    text-decoration: none;
+                                }
+                            </style>
+                                <div class="col list-unstyled p-3">
+                                    <li>
+                                        <a href="#">HTML</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">CSS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Bootstrap</a>
+                                    </li>
+                                </div>
+                                <div class="col list-unstyled p-3">
+                                    <li>
+                                        <a href="#">JavaScript</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">PHP</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">MySQL</a>
+                                    </li>
+                                </div>
+                                
+                        </div>
+
                     </div>
-                    <div class="other-info">
-                        <h3>Muu Info</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque expedita culpa inventore quos, corrupti suscipit aliquam magni ea officia veritatis sit quia nisi consequuntur deserunt ratione! Non incidunt amet sapiente!</p>
+                    <div class="other-info card">
+                        <div class="border bg-light p-2">
+                            <h3>Muu Info</h3>
+                        </div>
+                        <div class="p-3">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque expedita culpa inventore quos, corrupti suscipit aliquam magni ea officia veritatis sit quia nisi consequuntur deserunt ratione! Non incidunt amet sapiente!</p>
+                        </div>
                     </div>
                 </div>
             </div>
