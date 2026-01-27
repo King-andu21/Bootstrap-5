@@ -46,6 +46,7 @@
                         </li>
                     </ul>
                 </div>
+
             </nav>
         </header>
         <main>
@@ -70,26 +71,28 @@
                         </style>
                         <div class="d-flex justify-content-start">
                             <style>
-                                .d-flex a,p{
+                                .breadcrumb a,p{
                                     padding-left: 5px;
                                     border: 1px solid red;
                                     text-decoration: none;
+
                                 }
                             </style>
-                            <a href="#">Blogi</a>
-                            <p>/</p>
-                            <a href="#">Veebitehnoloogia</a>
-                            <p>/</p>
-                            <p>Sinupostitus</p>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item" aria-current="page"><a href="#">Blogi</a></li>
+                                    <li class="breadcrumb-item" aria-current="page"><a href="#">Veebitehnoloogia</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Sinupostitus</li>
+                                </ol>
+                            </nav>
                         </div>
                     </div>
                     <div class="top">
-                            <style>
-                                .top{
-                                }
-                            </style>
                         <h1>Sinu postitus</h1>
-                        <h4>Autor: Andre Pook</h4>
+                        <div class="color">
+                            <h5>Autor: Andre Pook</h5>
+                        </div>
+                        
                         <p>22.01.2026 css bootstrap</p>
                         <img src="https://picsum.photos/id/684/600/400?blur=5" alt="">
                         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, consectetur, veritatis explicabo nobis dolore earum culpa iste, excepturi assumenda quidem necessitatibus quasi sit nostrum sapiente. Aspernatur neque nulla ex debitis.</h5>
